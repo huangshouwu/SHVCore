@@ -11,10 +11,10 @@
 @interface GJTViewFactory : NSObject
 
 /** label工厂方法 */
-+ (UILabel*)newLabelWithFrame:(CGRect)frame;
-+ (UILabel*)newLabelWithFrame:(CGRect)frame font:(UIFont*)font;
-+ (UILabel*)newLabelWithFrame:(CGRect)frame font:(UIFont*)font color:(UIColor*)color;
-+ (UILabel*)newLabelWithFrame:(CGRect)frame font:(UIFont*)font color:(UIColor*)color text:(NSString*)text;
++ (UILabel*)createLabelWithFrame:(CGRect)frame;
++ (UILabel*)createLabelWithFrame:(CGRect)frame font:(UIFont*)font;
++ (UILabel*)createLabelWithFrame:(CGRect)frame font:(UIFont*)font color:(UIColor*)color;
++ (UILabel*)createLabelWithFrame:(CGRect)frame font:(UIFont*)font color:(UIColor*)color text:(NSString*)text;
 + (UILabel*)setLabel:(UILabel*)label font:(UIFont*)font color:(UIColor*)color text:(NSString*)text;
 
 @end

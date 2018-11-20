@@ -52,5 +52,6 @@ FOUNDATION_EXPORT const unsigned char SHVCoreVersionString[];
 #import <SHVCore/GJTTabBarButton.h>
 
 #import <SHVCore/GJTToolBar.h>
-
+#import <SHVCore/GJTViewFactory.h>
+#import <SHVCore/GJTCommonTool.h>
 

@@ -293,9 +293,8 @@ NSString* GJTRandomUUID(void){
 UIImage* GJTResourceImageWithName(NSString* imageName){
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"SHVCore" ofType:@"bundle"];
     NSString *imagePath = [bundlePath stringByAppendingPathComponent:imageName];
-    NSLog(@"imagePath:%@",imagePath);
     UIImage *img = [UIImage imageNamed:imagePath];
-    return img;//[NSString stringWithFormat:@"SHVCore.bundle/%@",imageName];
+    return img;
 }
 
 
