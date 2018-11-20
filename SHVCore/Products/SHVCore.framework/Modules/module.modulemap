@@ -1,0 +1,6 @@
+framework module SHVCore {
+  umbrella header "SHVCore.h"
+
+  export *
+  module * { export * }
+}

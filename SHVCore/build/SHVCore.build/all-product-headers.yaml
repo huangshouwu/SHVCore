@@ -1,0 +1,168 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/build/Release-iphonesimulator/SHVCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GJTBaseButton.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseCell.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseCellItem.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseItem/GJTBaseCellItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseCommonViewHeader.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseCommonViewHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseHeader.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/GJTBaseHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseImageView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseImageView.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseItem.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseItem/GJTBaseItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseLabel.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseMacros.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/GJTBaseMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseNavigationController.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseController/GJTBaseNavigationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseTableView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseTableView/GJTBaseTableView.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseTableViewController.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseController/GJTBaseTableViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseTextField.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseTextField.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/GJTBaseView.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseViewController.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseController/GJTBaseViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTBaseWebController.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseController/GJTBaseWebController.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTRefreshTableView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseTableView/GJTRefreshTableView.h"
+        },
+        {
+          'type': 'file',
+          'name': "GJTUIViewAdditions.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/Categorys/View/GJTUIViewAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+GJTEncode.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/Categorys/NSString/NSString+GJTEncode.h"
+        },
+        {
+          'type': 'file',
+          'name': "SHVCore-Swift.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/build/Release-iphonesimulator/SHVCore.framework/Headers/SHVCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SHVCore.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/SHVCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "SRDefine.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseTableView/SlimeRefresh/SRDefine.h"
+        },
+        {
+          'type': 'file',
+          'name': "SRRefreshView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseTableView/SlimeRefresh/SRRefreshView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SRSlimeView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseTableView/SlimeRefresh/SRSlimeView.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+BackgroundColor.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/Categorys/View/UIImage+BackgroundColor.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+GJTEnableEdgeGesture.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/Categorys/View/UIScrollView+GJTEnableEdgeGesture.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+GJTBorderProperty.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/BaseView/BaseCommonView/UIView+GJTBorderProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+backView.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/Categorys/View/UIView+backView.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+BackButtonItem.h",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/SHVCore/Categorys/Controller/BackButton/UIViewController+BackButtonItem.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/build/Release-iphonesimulator/SHVCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/huangshervin/Documents/\u5DE5\u4F5C\u76EE\u5F55/Framework/SHVCore/build/SHVCore.build/Release-iphonesimulator/SHVCore.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
