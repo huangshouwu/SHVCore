@@ -29,7 +29,7 @@ NSString* GJTRandomSingleChineseString(void);
 /** 随机生成指定长度的中文 */
 NSString* GJTRandomChineseString(NSUInteger length);
 /** 拨打电话 */
-void GJTCallPhoneInView(NSString* phone,UIView* inView);
+NSString* GJTCallPhoneInView(NSString* phone,UIView* inView);
 /** 重绘图片，指定大小 */
 UIImage* GJTReDrawImageWithImage(UIImage* image,CGSize size);
 /** 替换图片背景颜色 */

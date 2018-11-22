@@ -55,3 +55,9 @@ FOUNDATION_EXPORT const unsigned char SHVCoreVersionString[];
 #import <SHVCore/GJTViewFactory.h>
 #import <SHVCore/GJTCommonTool.h>
 
+#import <SHVCore/GJTSafeObject.h>
+#import <SHVCore/GJTSearchBar.h>
+#import <SHVCore/GJTCustomKeyboard.h>
+#import <SHVCore/NOEELoadingGapView.h>
+#import <SHVCore/UIView+NOEELoadingGap.h>
+
