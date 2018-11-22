@@ -7,9 +7,9 @@
 //
 
 #import "UIViewController+BackButtonItem.h"
-#import "GJTUIViewAdditions.h"
-#import "GJTBaseMacros.h"
-#import "GJTCommonTool.h"
+#import "SVHUIViewAdditions.h"
+#import "SVHBaseMacros.h"
+#import "SVHCommonTool.h"
 
 static CGRect const NOEEBackButtonFrame = {0,0,40,35};
 
@@ -59,7 +59,7 @@ static CGRect const NOEEBackButtonFrame = {0,0,40,35};
 }
 
 - (void)forceShowBackItemWithAction:(SEL)action frame:(CGRect)frame{
-    [self forceShowBackItemWithImage:GJTResourceImageWithName(@"GJTNavgationBackButton") title:nil action:action frame:frame];
+    [self forceShowBackItemWithImage:SVHResourceImageWithName(@"GJTNavgationBackButton") title:nil action:action frame:frame];
 }
 
 - (void)forceShowBackItemWithImage:(UIImage *)image

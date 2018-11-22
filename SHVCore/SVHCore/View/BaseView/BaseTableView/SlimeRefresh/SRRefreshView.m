@@ -10,8 +10,8 @@
 #import "SRSlimeView.h"
 #import "SRDefine.h"
 #import <QuartzCore/QuartzCore.h>
-#import "GJTBaseMacros.h"
-#import "GJTCommonTool.h"
+#import "SVHBaseMacros.h"
+#import "SVHCommonTool.h"
 
 @interface SRRefreshView()
 @property (nonatomic, assign) BOOL    broken;
@@ -43,7 +43,7 @@
         _slime.startPoint = CGPointMake(frame.size.width / 2.0, height / 2.0);
         [self addSubview:_slime];
         
-        _refleshView = [[UIImageView alloc] initWithImage:GJTResourceImageWithName(@"sr_refresh")];
+        _refleshView = [[UIImageView alloc] initWithImage:SVHResourceImageWithName(@"sr_refresh")];
         _refleshView.center = _slime.startPoint;
         _refleshView.bounds = CGRectMake(0.0f, 0.0f, kRefreshImageWidth, kRefreshImageWidth);
         [self addSubview:_refleshView];
@@ -54,7 +54,7 @@
         [_imgTitleButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         _imgTitleButton.titleLabel.font = [UIFont systemFontOfSize:12];
         [_imgTitleButton setTitle:@"刷新成功" forState:UIControlStateNormal];
-        [_imgTitleButton setImage:GJTResourceImageWithName(@"refreshSuccess") forState:UIControlStateNormal];
+        [_imgTitleButton setImage:SVHResourceImageWithName(@"refreshSuccess") forState:UIControlStateNormal];
         _imgTitleButton.center = _slime.startPoint;
         _imgTitleButton.hidden = YES;
         [self addSubview:_imgTitleButton];
@@ -352,7 +352,7 @@
 - (void)endRefreshSuccess:(BOOL)success{
     if (self.loading) {
         [_imgTitleButton setTitle:(success ? @"刷新成功" : @"刷新失败") forState:UIControlStateNormal];
-        [_imgTitleButton setImage:GJTResourceImageWithName(success ? @"refreshSuccess" : @"refreshFailed") forState:UIControlStateNormal];
+        [_imgTitleButton setImage:SVHResourceImageWithName(success ? @"refreshSuccess" : @"refreshFailed") forState:UIControlStateNormal];
         [self restore];
     }
     _oldLength = 0;

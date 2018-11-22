@@ -1,0 +1,6 @@
+framework module SVHCore {
+  umbrella header "SVHCore.h"
+
+  export *
+  module * { export * }
+}

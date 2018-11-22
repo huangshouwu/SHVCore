@@ -8,14 +8,14 @@
 
 #import "UIView+CustomBadge.h"
 #import <objc/runtime.h>
-#import "GJTCommonTool.h"
-#import "GJTUIViewAdditions.h"
+#import "SVHCommonTool.h"
+#import "SVHUIViewAdditions.h"
 static NSString *badgeViewKey;
 
 @implementation UIView(CustomBadge)
 
-- (GJTCustomBadgeView *)badgeView {
-    GJTCustomBadgeView *badgeView = (GJTCustomBadgeView *)objc_getAssociatedObject(self, (__bridge const void *)(badgeViewKey));
+- (SVHCustomBadgeView *)badgeView {
+    SVHCustomBadgeView *badgeView = (SVHCustomBadgeView *)objc_getAssociatedObject(self, (__bridge const void *)(badgeViewKey));
     return (badgeView);
 }
 
@@ -27,16 +27,16 @@ static NSString *badgeViewKey;
     if(badge > 0) {
 //        NSString *badgeString = [NSString stringWithString:[@(MIN(badge, NOE_DEF_BADGE_NUMBER_MAX)) stringValue]];
         NSString *badgeString = [NSString stringWithString:[@(badge) stringValue]];
-        GJTCustomBadgeView *badgeView = [self badgeView];
+        SVHCustomBadgeView *badgeView = [self badgeView];
         if(!badgeView) {
-            badgeView = [[GJTCustomBadgeView alloc] initWithFrame:CGRectMake(0, 0, NOE_DEF_BADGE_SIZE, 13)];
+            badgeView = [[SVHCustomBadgeView alloc] initWithFrame:CGRectMake(0, 0, NOE_DEF_BADGE_SIZE, 13)];
             objc_setAssociatedObject(self, (__bridge const void *)(badgeViewKey), badgeView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
             [self addSubview:badgeView];
         }
         badgeView.type = CustomBadgeTypeNumber;
         badgeView.badgeLabel.text = badgeString;
-        CGSize stringSize = GJTTextSizeWithText(badgeString, badgeView.badgeLabel.font, CGSizeMake(200, badgeView.badgeLabel.font.lineHeight+2));
-        CGSize hundredStringSize = GJTTextSizeWithText(@"1000", badgeView.badgeLabel.font, CGSizeMake(200, badgeView.badgeLabel.font.lineHeight+2));
+        CGSize stringSize = SVHTextSizeWithText(badgeString, badgeView.badgeLabel.font, CGSizeMake(200, badgeView.badgeLabel.font.lineHeight+2));
+        CGSize hundredStringSize = SVHTextSizeWithText(@"1000", badgeView.badgeLabel.font, CGSizeMake(200, badgeView.badgeLabel.font.lineHeight+2));
         if (stringSize.width < hundredStringSize.width) {
             if (stringSize.width <= stringSize.height){
                 badgeView.size = CGSizeMake(stringSize.height+4,stringSize.height+4);
@@ -49,7 +49,7 @@ static NSString *badgeViewKey;
         badgeView.hidden = NO;
         badgeView.center = CGPointMake(CGRectGetWidth(self.bounds) * position.x, CGRectGetHeight(self.bounds) * position.y);
     } else {
-        GJTCustomBadgeView *badgeView = [self badgeView];
+        SVHCustomBadgeView *badgeView = [self badgeView];
         if(badgeView) {
             badgeView.hidden = YES;
         }
@@ -58,9 +58,9 @@ static NSString *badgeViewKey;
 
 - (void)haveBadge:(BOOL)have contentPosition:(CGPoint)position {
     if(have) {
-        GJTCustomBadgeView *badgeView = [self badgeView];
+        SVHCustomBadgeView *badgeView = [self badgeView];
         if(!badgeView) {
-            badgeView = [[GJTCustomBadgeView alloc] initWithFrame:CGRectMake(0, 0, NOE_DEF_BADGE_SIZE, NOE_DEF_BADGE_SIZE)];
+            badgeView = [[SVHCustomBadgeView alloc] initWithFrame:CGRectMake(0, 0, NOE_DEF_BADGE_SIZE, NOE_DEF_BADGE_SIZE)];
             objc_setAssociatedObject(self, (__bridge const void *)(badgeViewKey), badgeView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
             [self addSubview:badgeView];
         }
@@ -70,7 +70,7 @@ static NSString *badgeViewKey;
         badgeView.hidden = NO;
         badgeView.center = CGPointMake(CGRectGetWidth(self.bounds) * position.x, CGRectGetHeight(self.bounds) * position.y);
     } else {
-        GJTCustomBadgeView *badgeView = [self badgeView];
+        SVHCustomBadgeView *badgeView = [self badgeView];
         if(badgeView) {
             badgeView.hidden = YES;
         }
